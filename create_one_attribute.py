@@ -1,4 +1,5 @@
 #Create a "Person" class
 #Create an attribute "name" in the "Person" class
 class Person:
-    name=6
+    def __init__(self, name):
+       self.name = name
